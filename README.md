@@ -24,10 +24,10 @@ Later in the project, a security challenge will be revealed and your team will h
 
 # Index
 
-1. [NotIST](#-NotIST)
-2. [TicketIST](#-TicketIST)
-3. [MotorIST](#-MotorIST)
-4. [MessagIST](#-MessagIST)
+1. [NotIST](#NotIST)
+2. [TicketIST](#TicketIST)
+3. [MotorIST](#MotorIST)
+4. [MessagIST](#MessagIST)
 
 
 ----
