@@ -89,7 +89,7 @@ Ensure the following security requirement are met:
 The users of NotIST want to share their notes with anyone on the web. Implement the required functionality to allow sharing a note with other users. 
 Ensure the following security requirement are met:
 - [SRA1: Authentication] Only authenticated and authorized users can see the content of the notes
-- [SRA2: Integrity 1] Anyone that has access to the not can verify its integrity
+- [SRA2: Integrity 1] Anyone that has access to the note can verify its integrity
 - [SRA3: Integrity 2] It is possible to verify the integrity of the notes throughout their versions.  
 #### Security challenge B
 Some NotIST users asked a new feature to allow them to exchange highly sensitive notes. These notes can only be opened is a user owns a set of two keys. Moreover, it is assumed that some keys may be lost, as such, if any notes were written using a revoked key then such noes should not be accepted.  
