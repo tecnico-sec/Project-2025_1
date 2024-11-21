@@ -92,7 +92,7 @@ Ensure the following security requirement are met:
 - [SRA2: Integrity 1] Anyone that has access to the note can verify its integrity
 - [SRA3: Integrity 2] It is possible to verify the integrity of the notes throughout their versions.  
 #### Security challenge B
-Some NotIST users asked a new feature to allow them to exchange highly sensitive notes. These notes can only be opened is a user owns a set of two keys. Moreover, it is assumed that some keys may be lost, as such, if any notes were written using a revoked key then such noes should not be accepted.  
+Some NotIST users asked a new feature to allow them to exchange highly sensitive notes. These notes can only be opened if a user owns a set of two keys. Moreover, it is assumed that some keys may be lost, as such, if any notes were written using a revoked key then such noes should not be accepted.  
 Ensure the following security requirement are met:
 - [SRB1: Confidentiality 1] Each note can only be read using a set of at least two keys: a personal key, and a note key. 
 - [SRB2: Confidentiality 2] Implement a multi-level access (0 - public, 1 - private, 2 - confidential, 3 - top-secret). Users with higher clearance can read any document up to that level (for example, a user with confidential can read any note that is public, private and confidential but cannot read a top-secret note) 
@@ -101,7 +101,7 @@ Ensure the following security requirement are met:
 ----
 
 ## TicketIST
-ST is selling tickets for scientific events throughout the year. These tickets are in high demand and being bought by many science enthusiasts around the globe. To accommodate with the demand of the ticket, IST is now selling electronic tickets online that can be validated using a smartphone. The data structure of a ticket is as follows:
+IST is selling tickets for scientific events throughout the year. These tickets are in high demand and being bought by many science enthusiasts around the globe. To accommodate with the demand of the ticket, IST is now selling electronic tickets online that can be validated using a smartphone. The data structure of a ticket is as follows:
 
 ```json
 
@@ -238,7 +238,7 @@ Ensure the following security requirement are met:
 Group conversations: some students want to use MessagIST to exchange messages in a group. Users that do not belong to the group cannot see any messages.
 Ensure the following security requirement are met:
 - [SRB1: Confidentiality 1] Only members of the group can see the content of the messages
-- [SRB2: Confidentiality 2] Members that do no longer belong to the group anymore must not be able to see any future message (they can still see previous messages) 
+- [SRB2: Confidentiality 2] Members that no longer belong to the group, must not be able to see any future message (they can still see previous messages) 
 - [SRB3: Confidentiality 3] Messages are stored in the database, however, any user with admin rights to the database must not see any message. 
 
 
