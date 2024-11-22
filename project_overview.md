@@ -123,7 +123,8 @@ All the configuration (and references) must be documented and the results should
 
 Now that your team has an application infrastructure with all server communications secure, with the library for protecting the documents, you are ready to face a security challenge.
 
-The business scenario description will present the challenge as a set of new requirements.
+The business scenario description will present two challendes as a set of new requirements. 
+**Pick just one of the challenges.**
 It is up to you to design a solution for it, extending or adapting what you have already developed.
 The solution will probably need to perform key distribution in a dynamic way.
 
