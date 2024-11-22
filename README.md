@@ -27,6 +27,13 @@ If your team did not get its first choice, do not worry, as all scenarios have c
 
 ----
 
+## Documents in this repository
+
+1. [Project overview](project_overview.md)
+2. [Project scenarios](project_scenarios.md)
+
+----
+
 IMPORTANT: keep track of the course [web site](https://fenix.tecnico.ulisboa.pt/disciplinas/SIRS11/2024-2025/1-semestre) for updates and links to online forms.
 
 If there are changes to this document, they can be consulted in the _Git Commit History_.
@@ -37,8 +44,7 @@ A security project that receives regular feedback can be improved earlier and is
 
 
 
-1. [Project overview](project_overview.md)
-2. [Project scenarios](project_scenarios.md)
+
 
 
 
