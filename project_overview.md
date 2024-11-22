@@ -154,7 +154,12 @@ It is also good to record screenshots, screencasts or similar artifacts showing 
 The project report should be written as the project moves forward.
 These draft versions of the report are useful for presenting the state of the project and getting feedback at each lab session.
 
-A template for the report will be provided.
+The report must include the following elements:
+ - cover: with the id of the group (e.g., T95), the name and istId of every element of the group, and the chosed scenario;
+ - index;
+ - introduction: specifying the security challenge that was chosen;
+ - developed solution: with system model, assumptions, threat model, system architecture and description of the protocols (use the appropriate diagrams for this ([1](https://guides.visual-paradigm.com/modeling-a-distributed-system-using-deployment-diagram/), [2](https://medium.com/@apicraft/demystifying-system-design-diagrams-a-comprehensive-guide-e58255187a3d)). Recommended tools: [SequenceDiagram](https://sequencediagram.org), [drawio](https://www.drawio.com), [Excalidraw](https://excalidraw.com));
+ - conclusion: detailing which requirements that were achieved and which weren't (use the requirement identifier).
 
 # 8. Submit code and report
 
