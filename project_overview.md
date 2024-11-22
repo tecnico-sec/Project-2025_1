@@ -8,7 +8,7 @@ This document describes the organization of the project for the Network and Comp
 
 You will work in a team of 3 members.
 
-The project is contextualized in one of a set of business scenarios: Retail, Restaurants & Tourism, Insurance and Banking, and Healthcare.
+The project is contextualized in one of a set of business scenarios: a notes app, a ticket selling app, a vehicle system, and a messaging app.
 
 The project is organized in 3 parts: secure documents, infrastructure, and security challenge.
 
@@ -28,55 +28,26 @@ The expected final result is all the components working together, to demonstrate
 
 This document will now detail the whole project process, stage by stage, and will conclude with a calendar containing all the deadlines, and the grading criteria.
 
-# 1. Project stages
-
 The whole SIRS project process is organized in sequential stages:
 
 | **Stage**                                                             |
 | ----------------------------------------------------------------------|
-| [1. Assemble team](#11-assemble-team)                                 |
-| [2. Pick scenario](#12-pick-scenario)                                 |
-| [3. Design secure document format](#13-design-secure-document-format)                   |
-| [4. Implement secure document format](#14-implement-secure-document-format) |
-| [5. Build infrastructure](#15-build-infrastructure)             |
-| [6. Protect server communications](#16-protect-server-communications)           |
-| [7. Respond to security challenge](#17-respond-to-security-challenge)              |
-| [8. Prepare demonstration](#18-prepare-demonstration)                 |
-| [9. Complete report](#19-complete-report)                             |
-| [10. Submit code and report](#110-submit-code-and-report)             |
-| [11. Check presentation session](#111-check-presentation-session)     |
-| [12. Present and defend](#112-present-and-defend)                     |
+| [1. Design secure document format](#1-design-secure-document-format)                   |
+| [2. Implement secure document format](#2-implement-secure-document-format) |
+| [3. Build infrastructure](#3-build-infrastructure)             |
+| [4. Protect server communications](#4-protect-server-communications)           |
+| [5. Respond to security challenge](#5-respond-to-security-challenge)              |
+| [6. Prepare demonstration](#6-prepare-demonstration)                 |
+| [7. Complete report](#7-complete-report)                             |
+| [8. Submit code and report](#8-submit-code-and-report)             |
+| [9. Check presentation session](#9-check-presentation-session)     |
+| [10. Present and defend](#10-present-and-defend)                     |
 
 <br />
 
 Each stage is described in the following subsections.
 
-## 1.1. Assemble team
-
-Assemble a team of 3 students, committed to work together.  
-On the first lab, inform the teacher of the group members.  
-For each team member we will need to know the name, number, email, and GitHub user handle.
-
-## 1.2. Pick scenario
-
-The scenarios for the project are described in another document, which will be posted on the course web site.
-
-Read the scenario descriptions and, as a team, sort the topics by preference for doing your work.
-
-When the selection form opens, sort all the scenarios by order of preference and submit.
-Number 1 will be your most preferred topic.
-
-Each team should be represented by one student only.
-In the selection form, identify your team as `CXX`, where `C` is replaced by A(lameda) or T(aguspark) and `XX` is replaced by the two digits of your group number, as assigned by Fénix.
-For example, group 22 of Taguspark is T22 and group 7 of Alameda is A07.
-
-To assure topic diversity, there are limited vacancies for each project scenario.
-Slots will be assigned on a _first-come-first-served_ basis using the submitted preferences.
-
-The official topic selection list will be posted after the process is concluded, to confirm the topic assigned to each group.  
-If your team did not get its first choice, do not worry, as all scenarios have challenges to solve!
-
-## 1.3. Design secure document format
+# 1. Design secure document format
 
 After having a scenario assigned, your team should design and implement a library to provide cryptographic security to the document format, according to the scenario instructions.
 
@@ -88,7 +59,7 @@ The library should provide, at least, the following operations:
 - `check()` - verify security of a document;
 - `unprotect()` - remove security from a document.
 
-## 1.4. Implement secure document format
+# 2. Implement secure document format
 
 The choice of programming language and cryptographic library  is up to the team.
 
@@ -109,7 +80,7 @@ In the case of any error, information should be printed, first with a summary of
 The values in parentheses serve as placeholders and should be replaced with specific, relevant values.
 `...` signifies that more arguments are expected.
 
-## 1.5. Build infrastructure
+# 3. Build infrastructure
 
 The team should now start to build the virtual network and machine infrastructure.
 
@@ -133,7 +104,7 @@ We recommend that you use technologies that you are familiar with, from previous
 
 This infrastructure should be presented to the teacher in the labs session, to receive feedback.
 
-## 1.6. Protect server communications
+# 4. Protect server communications
 
 Now that your team has an application infrastructure, it will have to make the communication with servers secure.
 
@@ -148,7 +119,7 @@ This traffic analisys does not need to perform cryptanalysis.
 
 All the configuration (and references) must be documented and the results should be presented to the lab teacher, again, to receive feedback.
 
-## 1.7. Respond to security challenge
+# 5. Respond to security challenge
 
 Now that your team has an application infrastructure with all server communications secure, with the library for protecting the documents, you are ready to face a security challenge.
 
@@ -168,7 +139,7 @@ Then, move to the more advanced components.
 
 Attend the lab sessions to present your ongoing development and receive feedback from the teacher.
 
-## 1.8. Prepare demonstration
+# 6. Prepare demonstration
 
 Once a stable and mostly complete solution is achieved, your team should start preparing the demonstration.
 The focus of the presentation should be on the back-end of security, i.e., to show the security mechanisms at work;
@@ -178,20 +149,20 @@ It is very important that the messages and its payloads are clearly presented, w
 Also at this stage, write a `README` file with step-by-step instructions on how to run your project, following a template that will be provided.  
 It is also good to record screenshots, screencasts or similar artifacts showing your project in action.
 
-## 1.9. Complete report
+# 7. Complete report
 
 The project report should be written as the project moves forward.
 These draft versions of the report are useful for presenting the state of the project and getting feedback at each lab session.
 
 A template for the report will be provided.
 
-## 1.10. Submit code and report
+# 8. Submit code and report
 
 Before the final deadline of the project, submit all the developed code and resources, and the revised report, to reflect the final version of the work:
   - make sure you have pushed all the changes in the code, `REPORT.md` and `README.md` files to the Git repository;
   - create a release tag called `ready`.
 
-## 1.11. Check presentation session
+# 9. Check presentation session
 
 The project presentations will occur on the dates following the submission deadline.  
 The presentation session calendar will be made available during the final days of the project.
@@ -206,7 +177,7 @@ For the discussion questions, students can answer in Portuguese.
 The presentations are done by the whole group, in person, on campus.
 Each group must attend from the beginning of their assigned session and remain for the duration of it.
 
-## 1.12. Present and defend
+# 10. Present and defend
 
 The presentation should be organized as follows:
 
@@ -229,16 +200,6 @@ Until the end of the day of your presentation session:
   - add presentation slides to the Git repository (both `PRESENTATION.pptx` and `PRESENTATION.pdf`);
   - add a `VIDEO.url` text file with a link for downloading the demonstration video file. The link should be valid for at least 7 days;
   - create a release tag called `done`.
-
-# 2. Conclusion
-
-IMPORTANT: keep track of the course [web site](https://fenix.tecnico.ulisboa.pt/disciplinas/SIRS11/2024-2025/1-semestre) for updates and links to online forms.
-
-If there are changes to this document, they can be consulted in the _Git Commit History_.
-
-We wish you all the best in this technical venture!  
-Make the most of it and ask for our feedback as much as possible.
-A security project that receives regular feedback can be improved earlier and is more likely to achieve a better result.
 
 ----
 
