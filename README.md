@@ -239,7 +239,7 @@ Group conversations: some students want to use MessagIST to exchange messages in
 Ensure the following security requirement are met:
 - [SRB1: Confidentiality 1] Only members of the group can see the content of the messages
 - [SRB2: Confidentiality 2] Members that no longer belong to the group, must not be able to see any future message (they can still see previous messages) 
-- [SRB3: Confidentiality 3] Messages are stored in the database, however, any user with admin rights to the database must not see any message. 
+- [SRB3: Confidentiality 3] System administrators have full access to the database (including the tables/collections with the messages exchanged by the users), however, they cannot see the content of the messages.
 
 
 ----
