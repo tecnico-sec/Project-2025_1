@@ -22,13 +22,12 @@ Later in the project, a security challenge will be revealed and your team will h
 
 ----
 
-# Index
+# Scenarios
 
-1. [NotIST](#NotIST)
-2. [TicketIST](#TicketIST)
-3. [MotorIST](#MotorIST)
-4. [MessagIST](#MessagIST)
-
+- [NotIST](#NotIST)
+- [TicketIST](#TicketIST)
+- [MotorIST](#MotorIST)
+- [MessagIST](#MessagIST)
 
 ----
 
@@ -148,6 +147,8 @@ Ensure the following security requirement are met:
 - [SRB2: Validity] If a user shares his annual ticket for an event, he loses the right to attend the event
 - [SRB3: Authentication] Tickets can only be used by their owner (either the owner of the annual ticket or the person he conceded the ticket) 
 
+----
+
 ## MotorIST
 IST is now selling electric cars with modern management systems. The system allows users to configure the car remotely, such as close/open the car; configure the AC; check the battery level. This is done by a user application installer on the users computer/mobile.
 Additionally, and to maintain the car up to date, the car also allows for firmware updates from the manufacturer.
@@ -200,7 +201,6 @@ Ensure the following security requirement are met:
 - [SRB3: data authenticity] The user can verify that the mechanic performed all the tests to the car. 
 
 ----
-
 
 ## MessagIST
 IST students use an instant message application to communicate with the member of the IST community. This app allows users to send and receive text messages in a secure form. The structure of a text message is as follows:
