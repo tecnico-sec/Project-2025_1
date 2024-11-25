@@ -188,7 +188,7 @@ Each group must attend from the beginning of their assigned session and remain f
 The presentation should be organized as follows:
 
 - 8 minutes for presentation of the work done, supported by slides, including a mandatory 2 minute live demo  
-(the live demonstration has specific evaluation weight. Also prepare a video of the demo, as rehearsal and backup, just in case there is a technical problem);
+(The live demonstration has specific evaluation weight. Also prepare a video of the demo, as rehearsal and backup, just in case there is a technical problem.);
 - 7 minutes for questions and answers.
 
 It is highly recommended that each presentation includes slides detailing:
