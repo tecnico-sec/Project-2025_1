@@ -7,7 +7,7 @@ Instituto Superior Técnico, Universidade de Lisboa
 This document explains the project scenarios.  
 Please read the project overview first.
 
-The scenarios describe a richer application context than the one that will be actually need to be implemented.  
+The scenarios describe a richer application context than the one that will be actually needed to be implemented.  
 The security aspects should be the focus of your work.
 User interface design, although critical in a real application, is secondary in this project.
 
