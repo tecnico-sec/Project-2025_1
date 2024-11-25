@@ -26,7 +26,7 @@ It will be up to the team to redesign and extend the previous parts.
 
 The expected final result is all the components working together, to demonstrate an overall secure business solution.
 
-This document will now detail the whole project process, stage by stage, and will conclude with a calendar containing all the deadlines, and the grading criteria.
+This document will now detail the whole project process, stage by stage.
 
 The whole SIRS project process is organized in sequential stages:
 
@@ -115,7 +115,7 @@ All the necessary keys will need to be generated, certified, and distributed in 
 If the chosen servers do not support the configuration of secure communication protocols, the group will have to follow a secure tunnel approach with SSH or similar protocol/tool.
 
 The team should verify the protection of the communication channels using tools that allow traffic interception and inspection, to make due dilligence to assure that encryption is actually being used.
-This traffic analisys does not need to perform cryptanalysis.
+This traffic analysis does not need to perform cryptanalysis.
 
 All the configuration (and references) must be documented and the results should be presented to the lab teacher, again, to receive feedback.
 
