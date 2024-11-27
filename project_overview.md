@@ -66,12 +66,14 @@ The choice of programming language and cryptographic library  is up to the team.
 Plan a gradual implementation of the solution.
 Attend the lab sessions to present your ongoing development and receive early feedback from the teacher.
 
+Generate a set of _dummy_ keys from _dummy_ users to quickly test your security functions.
+
 The library should also provide a command-line interface with, at least, the following commands:
 
 - `(tool-name) help`
-- `(tool-name) protect (input-file) (output-file) ...`
+- `(tool-name) protect (input-file) (dummy-key) (output-file) ...`
 - `(tool-name) check (input-file)`
-- `(tool-name) unprotect (input-file) (output-file) ...`
+- `(tool-name) unprotect (input-file) (dummy-key) (output-file) ...`
 
 The `help` command should print an explanation of all the available commands and their arguments.
 If the tool is called with any argument missing or with invalid arguments, it should print a helpful message.
