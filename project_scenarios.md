@@ -207,10 +207,10 @@ IST students use an instant message application to communicate with the members 
 
 ```json
 {
-  "message": [
+  "messages": [
     {
       "sender_istid": "ist1123123",
-      "sender_istid": "ist1321564",
+      "receiver_istid": "ist1321564",
       "timestamp": "2022-01-01T12:00:00Z",
       "content": "Hi! do you know the solution for the SIRS exercise?",
     },
